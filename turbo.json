@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["apps/*/.next/**", "apps/*/build/**"]
+    },
+    "dev": {
+      "cache": false
+    },
+    "lint": {}
+  }
+}

@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.turbo/
+
+# OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build outputs
+apps/**/.next/
+apps/**/.nuxt/
+apps/**/dist/
+apps/**/build/
+
+# AdonisJS
+apps/adonis/tmp/
+apps/adonis/.build/
+apps/adonis/.adonisrc.json
+apps/adonis/node_modules/
+.env
+.env.*
+
+# Next.js
+apps/nextjs/.next/
+apps/nextjs/out/
+
+# Turborepo cache
+.turbo/
+.turbo-cache/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Miscellaneous
+*.swp
+*.lock
+*.tmp
+*.temp
+*.log
+
+# Editor folders
+.idea/
+.vscode/
+*.sublime-workspace
+
+# MacOS specific
+.DS_Store
